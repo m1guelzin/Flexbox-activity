@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFB74D;
+    color: #000000;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+header .logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+header .logo img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 1.5em;
+}
+
+header p {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#secao1 {
+    display: flex;
+    padding: 20px;
+    flex-direction: column ;
+    align-items: center;
+    background-color: #FFF3E0 ;
+    color: #000000;
+    border-radius: 8px;
+    width: 70%; 
+}
+
+#secao1 h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.contas-container {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.conta-item {
+    background-color: #fff;
+    color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 200px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.conta-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#secao2 {
+    width: 30%;
+    padding: 20px;
+    background-color: #FFF3E0 ;
+    border-radius: 8px;
+    margin: auto;
+}
+
+#secao2 h2 {
+    font-size: 1.6em;
+    color: #000000;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#secao2 p {
+    line-height: 1.9;
+    text-align:justify;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFB74D   ;
+    color: #000000;
+    font-size: 18px;
+    margin-top: auto;
+    flex-direction: column;
+}
+
+.links-footer a {
+    color: #000000; 
+    text-decoration: none; 
+    margin-right: 15px; 
+    font-weight: bold;
+    transition: color 0.3s; 
+    text-decoration: underline;
+}
+
+.links-footer a:hover {
+    color: #ffffff;
+}
